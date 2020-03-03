@@ -1,8 +1,9 @@
 let width = prompt('Chiều rộng:');
-width = Number.parseInt(width);
+width = Number.parseFloat(width);
 let height = prompt('Chiều cao:');
-height = Number.parseInt(height);
+height = Number.parseFloat(height);
 let area = width * height;
+area = Number.parseFloat(area);
 document.write('Enter width: ');
 document.write('<br>');
 document.write(width);
