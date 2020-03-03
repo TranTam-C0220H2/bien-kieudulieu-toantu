@@ -1,0 +1,14 @@
+let width = prompt('Chiều rộng:');
+width = Number.parseInt(width);
+let height = prompt('Chiều cao:');
+height = Number.parseInt(height);
+let area = width * height;
+document.write('Enter width: ');
+document.write('<br>');
+document.write(width);
+document.write('<br>');
+document.write('Enter height: ');
+document.write('<br>');
+document.write(height);
+document.write('<br>');
+document.write('The area is: '+area);
